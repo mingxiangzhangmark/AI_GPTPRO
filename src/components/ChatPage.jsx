@@ -87,7 +87,8 @@ export default function ChatPage() {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer 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`, 
+        // eslint-disable-next-line no-undef
+        Authorization: `Bearer ${import.meta.env.VITE_REACT_APP_OPENAI_API_KEY}`, 
       },
       body: JSON.stringify({
         model: "gpt-3.5-turbo",

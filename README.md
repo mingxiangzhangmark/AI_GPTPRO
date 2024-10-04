@@ -1,8 +1,33 @@
-# React + Vite
+## GPT-Pro Web App
+### Project Info
+This is a Responsive CHATGPT project that uses the OpenAI GPT-3.5 API to generate text based on user input. The user can input a prompt and the AI will generate a response based on the prompt. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Technologies Used
+- HTML
+- CSS
+- JavaScript
+- OpenAI GPT-3.5 API
+- Responsive Design
+- React
+- Tailwind CSS
+- Vite
+- React-Routing
+- Axios
 
-Currently, two official plugins are available:
+Picture of the project:
+![alt text](image-1.png)
+![alt text](image.png)
+![alt text](image-2.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Running the project
+
+```bash
+npm install
+npm run dev
+```
+
+### Building the project
+
+```bash
+npm run build
+```
